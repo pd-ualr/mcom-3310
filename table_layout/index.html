@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="PD" />
+        <meta name="description" content="Week of March 6: Connecting HTML with the World">
+        <title>HTML Table Layout</title>
+    </head>
+    <body bgcolor="#000">
+        <table>
+            <!-- first row header-->
+            <tr bgcolor="#B2BEB5">
+                <td colspan="2">
+                    <h1>Webpage with a Table Layout</h1>
+                </td>
+            </tr>
+            <tr valign="top">
+                <!-- second row first column-->
+                <td bgcolor="#F0F0F0">
+                    <h2>Main Menu</h2>
+                    <a href="https://www.webfulcreations.com/absolute-links/">Absolute Link</a>
+                    <br><br>
+                    <a href="../index.html">Relative Link</a><br>
+                    <br>
+                </td>
+                 <!-- second row second column-->
+                <td bgcolor="#F0F0F0">
+                    <h2>Absolute vs Relative Links</h2>
+                    <p><b>Absolute link:</b> An absolute link is a link that includes the entire  (e.g. "https://www.google.com") . Absolute links are used to link to other websites to more information/resources.</p>
+                    <p><b>Relative Link:</b> A relative link is a link that only includes a portion of the URL, typically just the path and filename of the resource being linked to. Relative links are used to link to resources on the same domain related to the current page.</p>
+                    <p>It is important to understand the difference between relative and absolute links because it affects how links are interpreted by web browsers and search engines. As a Web Developer, it is important to know these things.</p>
+                </td>
+            </tr>
+            <tr>
+                <!-- third row with map/website iframes-->
+                <td >
+                    <iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" style="border: 1px solid black"></iframe>
+                </td>
+                <td>
+                    <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.npr.org" title="NPR News Site"></iframe>
+                </td>
+            </tr>
+            <tr>
+                 <!-- fourth row with video/music iframes-->
+                <td>
+                    <iframe width="600" height="350" src="https://www.youtube.com/embed/jfKfPfyJRdk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+                <td bgcolor="#FF0000">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2SQ9RmQAOxGICUSt9T5dIX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <td>
+            </tr>
+            <!-- footer -->
+            <tr bgcolor="#F0F0F0">
+                <td colspan="2">&copy; Peter Deano</td>
+            </tr>
+        </table>
+    </body>
+</html>
